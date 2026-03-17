@@ -12,14 +12,14 @@ This skill helps you close your day with reflection and ensures your work is sav
 
 Read today's daily note from `log/daily/YYYY-MM-DD.md` to see the morning priorities.
 
-Process the inbox folder by running the skill `/ProcessInbox` and update the daily note with any new tasks or notes that came up during the day.
+Run the `/process-inbox` skill to triage all items in the `## Inbox` section of `tasks.md`. Move processed items to Open Tasks or the right location, and archive them in tasks.md.
 
 Read the meeting from today's meeting and update the daily note with any new tasks or notes that came up during the day.
 
 Ask me the following questions one at a time, wait for my response, then move to the next:
 
 1. Did you achieve your top priorities from this morning? Which ones got done?
-2. Any notes or tasks to remember for tomorrow?
+2. Any notes, tasks, or reminders for tomorrow? (If tasks are mentioned, add them to `tasks.md` Open Tasks section.)
 
 After I answer:
 1. Update today's daily note with an "Evening Wrap-Up" section including:

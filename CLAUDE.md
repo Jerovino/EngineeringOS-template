@@ -61,6 +61,7 @@ EngineeringOS/
 │           ├── plan.md          # Working document
 │   └── completed/               # Completed initiatives
 ├── decisions/                   # Decision log and ADRs
+├── tasks.md                     # Open tasks + quick capture (reviewed daily)
 └── uploads/                     # Past reviews, notes to process
 ```
 
@@ -75,7 +76,7 @@ When helping me, always read these files first:
 3. **goals/90_day.md** — Current quarter priorities
 4. **teams/health_tracker.md** — Team health overview
 5. **initiatives/_dashboard.md** — What I'm working on
-6. **inbox.md** — Quick capture for tasks and ideas
+6. **tasks.md** — Open tasks and quick capture (reviewed daily)
 
 ---
 
@@ -111,8 +112,8 @@ All workflows are available as skills. Use them with `/skill-name`.
 
 | Skill | Command | What it does |
 |-------|---------|--------------|
-| Add Task | `/add-task [description]` | Quick capture to inbox.md |
-| Process Inbox | `/process-inbox` | Triages inbox items to their proper locations in the vault |
+| Add Task | `/add-task [description]` | Quick capture to tasks.md |
+| Process Inbox | `/process-inbox` | Triages inbox items in tasks.md to their proper locations |
 
 ### Meeting Prep
 

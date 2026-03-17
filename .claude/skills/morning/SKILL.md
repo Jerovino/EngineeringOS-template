@@ -17,7 +17,7 @@ Before greeting, collect today's context in parallel:
 1. **Yesterday's notes** — Read the most recent daily note from `log/daily/`.
 2. **Calendar** — Run the `/calendar` skill to get today's schedule from Google Calendar. This uses Playwright to navigate to Google Calendar day view, take an accessibility snapshot, and parse events into a markdown table.
 3. **90-day goals** — Read `goals/90_day.md` for current priorities.
-4. **Inbox** — Check `inbox.md` for any pending items.
+4. **Tasks** — Check `tasks.md` for open tasks and any new inbox items.
 
 ### Step 2: Brief the day
 

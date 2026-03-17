@@ -1,7 +1,7 @@
 ---
 skill_name: process-inbox
 title: Process Inbox
-description: Processes inbox.md items by triaging each one to its proper location in the vault
+description: Processes tasks.md inbox items by triaging each one to its proper location in the vault
 ---
 
 # Process Inbox
@@ -10,11 +10,11 @@ This skill processes your inbox — triaging each captured item to the right pla
 
 ## Instructions
 
-Read `inbox.md` and identify all items under `## To Process`.
+Read `tasks.md` and identify all items under `## Inbox`.
 
 If there are no items to process, say so and stop.
 
-For each item, apply the processing guide from inbox.md and present a recommendation:
+For each item, apply the processing guide from tasks.md and present a recommendation:
 
 ```
 Item: [the item text]
@@ -40,8 +40,8 @@ After I confirm (or adjust), for each item:
 7. **Delegate** → Add to the person's note in `people/@Name.md` with a `- [ ]` tag and note it's delegated
 
 After moving each item:
-- Mark it as done (`- [x]`) in inbox.md
-- Move it from `## To Process` to `## Archive`
+- Mark it as done (`- [x]`) in tasks.md
+- Move it from `## Inbox` to `## Archive`
 
 When all items are processed, confirm what was moved where.
 

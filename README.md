@@ -147,8 +147,8 @@ Reflects on the day, commits everything to GitHub.
 | Quarterly Checkpoint | `/quarterly-checkpoint` | Quarter review with pattern updates |
 | Draft | `/draft` | Draft emails/Slack/docs in your voice |
 | Review Draft | `/review-draft` | Review a draft for voice and AI smell |
-| Add Task | `/add-task` | Quick capture to inbox |
-| Process Inbox | `/process-inbox` | Triage inbox items to proper locations |
+| Add Task | `/add-task` | Quick capture to tasks.md |
+| Process Inbox | `/process-inbox` | Triage tasks.md inbox items to proper locations |
 | Prep 1:1 | `/prep1o1` | Prepare for 1:1 meetings |
 | Prep Skip-Level | `/prep-skip-level` | Prepare for skip-level 1:1s |
 | Staff Meeting Prep | `/staff-prep` | Prepare for staff/leadership meetings |

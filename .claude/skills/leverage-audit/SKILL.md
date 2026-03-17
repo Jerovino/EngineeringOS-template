@@ -76,7 +76,7 @@ After I answer, generate the audit output directly (don't save to a file unless 
 
 After generating:
 1. Ask if any insights should go into `memory.md`
-2. If delegation candidates are identified, suggest creating action items in `inbox.md`
+2. If delegation candidates are identified, suggest creating action items in `tasks.md`
 3. Connect findings to 90-day goals — flag if time allocation contradicts stated priorities
 
 ## Tips
