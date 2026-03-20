@@ -71,8 +71,9 @@ Weekly review file structure:
 ```
 
 After creating the review:
-1. Check if any insights should be added to `memory.md` — suggest them, don't add without confirmation
-2. Commit and push changes to GitHub with message: "Weekly review - YYYY-Www" with co-author credit
+1. Archive completed tasks — move all `[x]` items from `tasks.md` Open Tasks section to the Archive section
+2. Check if any insights should be added to `memory.md` — suggest them, don't add without confirmation
+3. Commit and push changes to GitHub with message: "Weekly review - YYYY-Www" with co-author credit
 
 Keep the tone direct and honest. Flag patterns from `memory.md` if I'm repeating known anti-patterns.
 
